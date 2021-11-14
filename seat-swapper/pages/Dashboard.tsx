@@ -9,6 +9,7 @@ const Dashboard = () => {
             <Typography variant="h1">
                 <Box sx={{textAlign:'center',m:1}}> SeatSwapper </Box>
             </Typography> 
+            <div>
             <Box
                 sx={{
                     textAlign:'center',
@@ -21,6 +22,7 @@ const Dashboard = () => {
                 Swap offer to A2(Window)
 
             </Box>
+            </div>     
         </Typography>
 
     )
