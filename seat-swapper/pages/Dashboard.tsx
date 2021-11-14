@@ -9,20 +9,39 @@ const Dashboard = () => {
             <Typography variant="h1">
                 <Box sx={{textAlign:'center',m:1}}> SeatSwapper </Box>
             </Typography> 
-            <div>
+            <div
+                style={{marginLeft:"40%", marginTop:"1em"}}
+            >
             <Box
                 sx={{
                     textAlign:'center',
                     m:1,
                     width: 400,
                     height: 100,
-                    backgroundColor: 'primary.dark',
+                    backgroundColor: 'warning.main',
                 }}
             >
                 Swap offer to A2(Window)
 
             </Box>
             </div>     
+            <div
+                style={{marginLeft:"40%", marginTop:"1em"}}
+            >
+            <Box
+                sx={{
+                    textAlign:'center',
+                    m:1,
+                    width: 400,
+                    height: 100,
+                    backgroundColor: 'error.light',
+                }}
+            >
+                Request to change seat with B1(aiel) 
+
+            </Box>
+            </div>     
+ 
         </Typography>
 
     )
